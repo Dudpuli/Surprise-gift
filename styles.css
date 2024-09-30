@@ -1,0 +1,66 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.gift-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.gift-box {
+    cursor: pointer;
+    background-color: #ff69b4;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.gift-box:hover {
+    transform: scale(1.1);
+}
+
+.gift {
+    font-size: 3rem;
+}
+
+.hidden-gift {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e0f7fa;
+    border: 1px solid #b2ebf2;
+    border-radius: 10px;
+}
+
+.hidden-gift img {
+    margin-top: 10px;
+    border-radius: 10px;
+}
