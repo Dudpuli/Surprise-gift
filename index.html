@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Gift for Nilanjana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Surprise Gifts for Nilanjana 🎁</h1>
+
+        <!-- Gift Boxes -->
+        <div class="gift-boxes">
+            <div class="gift-box" onclick="revealGift('gift1')">
+                <div class="gift">
+                    🎁
+                </div>
+                <p>Click to open Gift 1</p>
+            </div>
+
+            <div class="gift-box" onclick="revealGift('gift2')">
+                <div class="gift">
+                    🎁
+                </div>
+                <p>Click to open Gift 2</p>
+            </div>
+
+            <div class="gift-box" onclick="revealGift('gift3')">
+                <div class="gift">
+                    🎁
+                </div>
+                <p>Click to open Gift 3</p>
+            </div>
+        </div>
+
+        <!-- Hidden Gifts -->
+        <div id="gift1" class="hidden-gift">
+            <h2>Gift 1: A Poem</h2>
+            <p>"Friendship is a treasure, more valuable than gold,</p>
+            <p>With you by my side, our memories unfold."</p>
+        </div>
+
+        <div id="gift2" class="hidden-gift">
+            <h2>Gift 2: A Special Message</h2>
+            <p>You are the best friend anyone could ever ask for! ❤️</p>
+        </div>
+
+        <div id="gift3" class="hidden-gift">
+            <h2>Gift 3: A Picture</h2>
+            <img src="your-picture-url-here.jpg" alt="A special memory" width="200px">
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
